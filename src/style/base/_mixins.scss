@@ -1,0 +1,16 @@
+@mixin flexBlock($gap: 0) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: $gap;
+}
+
+@mixin media($width: 1200px) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
+}
+
+$mobile: 480px;
+$tabletSmall: 780px;
+$tabletLarge: 1024px;
