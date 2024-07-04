@@ -1,0 +1,23 @@
+header.header 
+	div.container 
+		div.header__row
+			a.header__logo(href="#!") 3legant.
+			nav.header__nav 
+				ul.header__list 
+					-let items = [['Home', '!#'],['Shop ', '!#'],['Product', '!#'],['Contact Us', '!#']]
+					each item in items 
+						if item == items[1] || item == items[2]
+							li.header__item 
+								button.header__link(type="button")= item[0]
+								img(src=require('./../../images/header/chevron-down.svg'), alt="")
+						else
+							li.header__item 
+								a.header__link(href=item[1])= item[0]
+			div.header__user-btn
+				button.header__btn(type="button") 
+					img(src=require('./../../images/header/search.svg'), alt="")
+				button.header__btn(type="button") 
+					img(src=require('./../../images/header/user-circle.svg'), alt="")
+				button.header__btn.header__cart-btn(type="button") 
+					img(src=require('./../../images/header/shopping bag.svg'), alt="")
+					span.header__count 2
