@@ -1,0 +1,29 @@
+.saleline {
+  padding-block: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+  background-color: black;
+
+  position: relative;
+
+  .saleline__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+
+    border-bottom: 1px solid #ffab00;
+    color: #ffab00;
+  }
+}
+
+.saleline__close-btn {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
