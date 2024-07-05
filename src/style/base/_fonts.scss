@@ -1,63 +1,64 @@
-@font-face {
-  font-family: "Inter";
-  src: local("Inter Regular"), local("Inter-Regular"),
-    url("./../fonts/Inter-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+// @font-face {
+//   font-family: "Inter";
+//   src: local("Inter Regular"), local("Inter-Regular"),
+//     url("./../fonts/Inter-Regular.woff2") format("woff2");
+//   font-weight: 400;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: "Inter";
-  src: local("Inter Medium"), local("Inter-Medium"),
-    url("./../fonts/Inter-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: medium;
-}
+// @font-face {
+//   font-family: "Inter";
+//   src: local("Inter Medium"), local("Inter-Medium"),
+//     url("./../fonts/Inter-Medium.woff2") format("woff2");
+//   font-weight: 500;
+//   font-style: medium;
+// }
 
-@font-face {
-  font-family: "Inter";
-  src: local("Inter SemiBold"), local("Inter-SemiBold"),
-    url("./../fonts/Inter-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: semi-bold;
-}
+// @font-face {
+//   font-family: "Inter";
+//   src: local("Inter SemiBold"), local("Inter-SemiBold"),
+//     url("./../fonts/Inter-SemiBold.woff2") format("woff2");
+//   font-weight: 600;
+//   font-style: semi-bold;
+// }
 
-@font-face {
-  font-family: "Inter";
-  src: local("Inter Bold"), local("Inter-Bold"),
-    url("./../fonts/Inter-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: bold;
-}
+// @font-face {
+//   font-family: "Inter";
+//   src: local("Inter Bold"), local("Inter-Bold"),
+//     url("./../fonts/Inter-Bold.woff2") format("woff2");
+//   font-weight: 700;
+//   font-style: bold;
+// }
 
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins Regular"), local("Poppins-Regular"),
-    url("./../fonts/Poppins-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
+// @font-face {
+//   font-family: "Poppins";
+//   src: local("Poppins Regular"), local("Poppins-Regular"),
+//     url("./../fonts/Poppins-Regular.woff2") format("woff2");
+//   font-weight: 400;
+//   font-style: normal;
+// }
 
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins Medium"), local("Poppins-Medium"),
-    url("./../fonts/Poppins-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: medium;
-}
+// @font-face {
+//   font-family: "Poppins";
+//   src: local("Poppins Medium"), local("Poppins-Medium"),
+//     url("./../fonts/Poppins-Medium.woff2") format("woff2");
+//   font-weight: 500;
+//   font-style: medium;
+// }
 
-@font-face {
-  font-family: "Poppins";
-  src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
-    url("./../fonts/Poppins-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: semi-bold;
-}
+// @font-face {
+//   font-family: "Poppins";
+//   src: local("Poppins SemiBold"), local("Poppins-SemiBold"),
+//     url("./../fonts/Poppins-SemiBold.woff2") format("woff2");
+//   font-weight: 600;
+//   font-style: semi-bold;
+// }
 
-@font-face {
-  font-family: "Space Grotesk";
-  src: local("Space Grotesk Medium"), local("Space Grotesk-Medium"),
-    url("./../fonts/SpaceGrotesk-Medium.woff2") format("woff2");
-  font-weight: 500;
-  font-style: medium;
-}
+// @font-face {
+//   font-family: "Space Grotesk";
+//   src: local("Space Grotesk Medium"), local("Space Grotesk-Medium"),
+//     url("./../fonts/SpaceGrotesk-Medium.woff2") format("woff2");
+//   font-weight: 500;
+//   font-style: medium;
+// }
