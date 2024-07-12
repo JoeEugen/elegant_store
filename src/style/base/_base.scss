@@ -27,6 +27,10 @@ body {
 }
 
 .title-3 {
+  font-family: var(--font-accent);
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 38px;
 }
 
 .title-4 {
@@ -35,9 +39,6 @@ body {
   line-height: 1.6;
   font-weight: 600;
   color: var(--page-bg);
-}
-
-.text {
 }
 
 p + p {

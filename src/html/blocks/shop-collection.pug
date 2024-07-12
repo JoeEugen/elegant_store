@@ -1,3 +1,19 @@
 section.shop-collection
 	div.container
-		h2.title-2.shop-collection__title
+		h2.title-2.shop-collection__title Shop Collection
+		div.shop-collection__columns 
+			div.shop-collection__headband.shop-collection__item
+				a(href = "!#").shop-collection__desc
+					h3.title-3.shop-collection__title Headband
+					span.shop-collection__link Collection #[img(src = require('./../../images/shop/arrow-right.svg'))]
+			div.shop-collection__rows
+				div.shop-collection__earbuds.shop-collection__item
+					a(href = "!#").shop-collection__desc.shop-collection__desc--small
+						h3.title-3.shop-collection__title Earbuds
+						span.shop-collection__link Collection #[img(src = require('./../../images/shop/arrow-right.svg'))]
+				div.shop-collection__accessories.shop-collection__item
+					a(href = "!#").shop-collection__desc.shop-collection__desc--small
+						h3.title-3.shop-collection__title Accessories
+						span.shop-collection__link Collection #[img(src = require('./../../images/shop/arrow-right.svg'))]
+
+
