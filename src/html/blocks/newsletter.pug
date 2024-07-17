@@ -1,0 +1,11 @@
+section.newsletter 
+  div.container.newsletter__container
+    div.newsletter__content 
+      div.newsletter__header
+        h2.title-2.newsletter__title Join Our Newsletter
+        p.newsletter__text Sign up for deals, new products and promotions
+      form(action="" method="post").newsletter__form
+        fieldset.newsletter__field
+          img(src=require("./../../images/newsletter/email.svg"), alt="")
+          input.newsletter__input(type="email" name="email" placeholder="Email address", required)
+        button.newsletter__button(type="submit") Signup
