@@ -1,0 +1,31 @@
+.info {
+  padding-block: 40px;
+}
+
+.info__block {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.info__item {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  padding: 48px 32px;
+
+  background-color: #f3f5f7;
+
+  .info__img {
+    width: 48px;
+  }
+
+  .info_text {
+    font-size: 14px;
+    font-family: var(--accent-text);
+    color: #6c7275;
+
+    margin-top: 8px;
+  }
+}

@@ -41,6 +41,13 @@ body {
   color: var(--page-bg);
 }
 
+.title-5 {
+  font-family: var(--font-accent);
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
 p + p {
   margin-top: 1em;
 }
