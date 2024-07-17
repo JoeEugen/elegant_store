@@ -1,0 +1,25 @@
+.timer {
+  display: flex;
+  gap: 16px;
+}
+
+.timer__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .timer__count {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+  }
+
+  span {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

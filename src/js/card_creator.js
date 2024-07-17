@@ -38,7 +38,7 @@ let cardsCreator = function (products, place) {
       cardRaiting.appendChild(ratingImg);
     }
     cardModel.textContent = item.name;
-    cardPrice.textContent = item.price;
+    cardPrice.textContent = "$" + item.price;
 
     cardHeader.append(cardImage, cardBadge, cardWishlist, cardButton);
     cardDesc.append(cardRaiting, cardModel, cardPrice);

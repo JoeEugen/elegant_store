@@ -9,3 +9,9 @@ import "./js/swiper_arrivals";
 
 // arrivals
 import "./js/new_arrivals";
+
+// best seller
+import "./js/best_seller";
+
+// timer
+import "./js/timer";

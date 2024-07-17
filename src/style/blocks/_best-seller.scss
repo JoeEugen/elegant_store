@@ -1,0 +1,14 @@
+.best-seller {
+  padding-bottom: 100px;
+}
+
+.best-seller__title {
+  padding-block: 48px;
+}
+
+.best-seller__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 24px;
+  row-gap: 48px;
+}

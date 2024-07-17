@@ -1,0 +1,56 @@
+.promotion__colomns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  background-color: rgba(255, 171, 0, 0.4);
+}
+
+.promotion__image {
+  background-image: url("./../images/promotion/prom.jpg");
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url("./../images/promotion/prom@2x.jpg");
+  }
+}
+
+.promotion__block {
+  padding: 101px 72px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+
+  .promotion__header {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    .promotion__tagline {
+      font-weight: 700;
+      line-height: 1;
+      color: #377dff;
+    }
+
+    .promotion__desc {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+    }
+  }
+
+  .promotion__offer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .promotion__button {
+    align-self: flex-start;
+    padding: 6px 40px;
+  }
+}
