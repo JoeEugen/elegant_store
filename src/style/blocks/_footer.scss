@@ -1,0 +1,95 @@
+.footer {
+  background-color: #000;
+  color: #fefefe;
+  padding-block: 80px 32px;
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+
+  font-size: 14px;
+  line-height: 22px;
+
+  .footer__header {
+    display: flex;
+    gap: 32px;
+
+    .footer__logo {
+      font-family: var(--font-accent);
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1;
+      color: #fff;
+      transition: all 0.3s ease;
+      &:hover {
+        color: #c8c8c8;
+      }
+    }
+
+    .footer__line {
+      height: 24px;
+      width: 1px;
+      background-color: #6c7275;
+    }
+  }
+
+  .footer__list {
+    display: flex;
+    gap: 40px;
+
+    .header__item {
+      transition: all 0.3s ease;
+      &:hover {
+        color: #c8c8c8;
+      }
+    }
+  }
+
+  &:first-child {
+    margin-bottom: 57px;
+  }
+
+  .footer__politics {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+
+    font-family: var(--font-accent);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 20px;
+
+    .footer__copyright {
+      color: #e8ecef;
+      font-weight: 400;
+      cursor: default;
+    }
+
+    .footer__link {
+      transition: all 0.3s ease;
+      &:hover {
+        color: #c8c8c8;
+      }
+    }
+  }
+
+  .footer__socials {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+
+    a {
+      transition: all 0.3s ease;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.footer__row--border {
+  border-top: 1px solid #6c7275;
+  padding-top: 16px;
+}

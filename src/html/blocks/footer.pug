@@ -1,0 +1,26 @@
+footer.footer 
+  div.container 
+    div.footer__row 
+      div.footer__header 
+        a.footer__logo(href="#") 3legant.
+        div.footer__line 
+        div.footer__store Headphone Store
+      ul.footer__list 
+        -let items = [['Home', '!#'],['Shop ', '!#'],['Product', '!#'],['Blog', '!#'],['Contact Us', '!#']]
+        each item in items 
+          li.header__item 
+            a.header__link(href=item[1])= item[0]
+
+    div.footer__row.footer__row--border
+      div.footer__politics
+        p.footer__copyright Copyright © 2023 3legant. All rights reserved
+        a(href="#!").footer__link Privacy Policy
+        a(href="#!").footer__link Terms of Use
+      div.footer__socials
+        a(href="#!") 
+          img(src=require('./../../images/footer/instagram.svg'), alt="")
+        a(href="#!") 
+          img(src=require('./../../images/footer/facebook.svg'), alt="")
+        a(href="#!") 
+          img(src=require('./../../images/footer/youtube.svg'), alt="")
+
