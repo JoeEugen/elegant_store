@@ -15,3 +15,6 @@ import "./js/best_seller";
 
 // timer
 import "./js/timer";
+
+// cart
+import "./js/cart";

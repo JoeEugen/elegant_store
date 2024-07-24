@@ -1,10 +1,10 @@
-header.header 
+header.header#header
 	div.container 
 		div.header__row
-			a.header__logo(href="#!") 3legant.
+			a.header__logo(href="#header") 3legant.
 			nav.header__nav 
 				ul.header__list 
-					-let items = [['Home', '!#'],['Shop ', '!#'],['Product', '!#'],['Contact Us', '!#']]
+					-let items = [['Home', '#header'],['Shop ', '!#'],['Product', '!#'], ['Contact Us', '#newsletter']]
 					each item in items 
 						if item == items[1] || item == items[2]
 							li.header__item 

@@ -1,0 +1,169 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "type": "headband",
+      "name": "Skullcandy - Crusher anc 2 wireless headphones",
+      "price": 299.99,
+      "rating": 5,
+      "status": ["new"],
+      "color": "black",
+      "image_url": "01.jpg",
+      "image_hd": "01@2x.jpg 2x"
+    },
+    {
+      "id": 2,
+      "type": "headband",
+      "name": "Beats Studio Pro",
+      "price": 349.99,
+      "rating": 5,
+      "status": ["hot", "new"],
+      "color": "black",
+      "image_url": "02.jpg",
+      "image_hd": "02@2x.jpg 2x"
+    },
+    {
+      "id": 3,
+      "type": "headband",
+      "name": "Sony - WH-CH720N Wireless Noise Canceling",
+      "price": 149.99,
+      "rating": 5,
+      "status": ["hot", "new", "sale"],
+      "color": "black",
+      "image_url": "03.jpg",
+      "image_hd": "03@2x.jpg 2x"
+    },
+    {
+      "id": 4,
+      "type": "earbuds",
+      "name": "Skullcandy - Rail True Wireless Earbuds",
+      "price": 79.99,
+      "rating": 4,
+      "status": ["hot", "new"],
+      "color": "black",
+      "image_url": "04.jpg",
+      "image_hd": "04@2x.jpg 2x"
+    },
+    {
+      "id": 5,
+      "type": "earbuds",
+      "name": "Beats  Studio Pro",
+      "price": 224.99,
+      "rating": 5,
+      "status": ["hot", "new"],
+      "color": "black",
+      "image_url": "05.jpg",
+      "image_hd": "05@2x.jpg 2x"
+    },
+    {
+      "id": 6,
+      "type": "earbuds",
+      "name": "JBL Reflect Flow Pro+ Bluetooth Truly Wireless Sports",
+      "price": 179.95,
+      "rating": 3,
+      "status": ["hot"],
+      "color": "black",
+      "image_url": "06.jpg",
+      "image_hd": "06@2x.jpg 2x"
+    },
+    {
+      "id": 7,
+      "type": "headband",
+      "name": "Bose QuietComfort Headphones",
+      "price": 349.0,
+      "rating": 5,
+      "status": ["hot"],
+      "color": "black",
+      "image_url": "07.jpg",
+      "image_hd": "07@2x.jpg 2x"
+    },
+    {
+      "id": 8,
+      "type": "headband",
+      "name": "AKG Y600NC Wireless",
+      "price": 349.99,
+      "rating": 5,
+      "status": ["hot"],
+      "color": "black",
+      "image_url": "08.jpg",
+      "image_hd": "08@2x.jpg 2x"
+    },
+    {
+      "id": 9,
+      "type": "headband",
+      "name": "Sony - WH-1000XM5 Wireless Noise Canceling",
+      "price": 299.99,
+      "rating": 5,
+      "status": ["hot", "new", "sale"],
+      "color": "black",
+      "image_url": "09.jpg",
+      "image_hd": "09@2x.jpg 2x"
+    },
+    {
+      "id": 10,
+      "type": "accessories",
+      "name": "USB-C Charge Cable",
+      "price": 9.99,
+      "rating": 3,
+      "status": ["hot", "new"],
+      "color": "black",
+      "image_url": "10.jpg",
+      "image_hd": "10@2x.jpg 2x"
+    },
+    {
+      "id": 11,
+      "type": "accessories",
+      "name": "60W USB-C Charge Cable",
+      "price": 29.99,
+      "rating": 5,
+      "status": ["hot", "new", "sale"],
+      "color": "black",
+      "image_url": "10.jpg",
+      "image_hd": "10@2x.jpg 2x"
+    },
+    {
+      "id": 12,
+      "type": "accessories",
+      "name": "ACG - USB-C Charge Cable",
+      "price": 49.99,
+      "rating": 5,
+      "status": ["hot", "new"],
+      "color": "black",
+      "image_url": "10.jpg",
+      "image_hd": "10@2x.jpg 2x"
+    },
+    {
+      "id": 13,
+      "type": "accessories",
+      "name": "Sony - USB-C Charge Cable",
+      "price": 15,
+      "rating": 5,
+      "status": ["hot", "new", "sale"],
+      "color": "black",
+      "image_url": "10.jpg",
+      "image_hd": "10@2x.jpg 2x"
+    },
+    {
+      "id": 14,
+      "type": "accessories",
+      "name": "Apple - USB-C Charge Cable",
+      "price": 58,
+      "rating": 5,
+      "status": ["hot", "new"],
+      "color": "black",
+      "image_url": "10.jpg",
+      "image_hd": "10@2x.jpg 2x"
+    },
+    {
+      "id": 15,
+      "type": "accessories",
+      "name": "Bose - USB-C Charge Cable",
+      "price": 83,
+      "rating": 5,
+      "status": ["hot", "new", "sale"],
+      "color": "black",
+      "image_url": "10.jpg",
+      "image_hd": "10@2x.jpg 2x"
+    }
+  ]
+}

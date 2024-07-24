@@ -1,9 +1,15 @@
 // New Arrivals
 
-import new_arrivals from "./json/new_goods.json";
+import goods from "./json/goods.json";
 import cardsCreator from "./card_creator";
 
 const newArrivals = document.querySelector(".arrivals__cards");
-let products = new_arrivals.new_products;
+let products = goods.goods
+  .map((item) => {
+    if (item.status.includes("new") && !item.type.includes("accessories")) {
+      return item;
+    } else return;
+  })
+  .filter((item) => item !== null && item !== undefined && item !== "");
 
-cardsCreator(products, newArrivals);
+cardsCreator(products, newArrivals, "new");
